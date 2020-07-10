@@ -11,14 +11,41 @@ ul {
     color:#2196F3;
 }
 /* site nav */
-.nav {
+.nav, .nav-link {
     color:#212121;
-
 }
 .nav-link:hover, .nav-link:focus {
     color:#2196F3;
 }
+/* hero */
+.button {
+    color:#2196F3;
+}
+.button.primary {
+    color:#ffffff;
+    background-color:#2196F3;
+}
 /* sections */
 .section {
     color:#212121;
+}
+.section-link {
+    color:#AFB1B8;
+}
+.section-link:hover, .section-link:focus {
+    color:#2196F3;
+}
+/* footer */
+.footer {
+    background-color:#2F303A;
+    color:#2196F3;
+}
+.address {
+    color:#FFFFFF;
+}
+.footer > h2, h3{
+    color:#ffffff;
+}
+.address-link {
+    color:rgba(255, 255, 255, 0.6);
 }
